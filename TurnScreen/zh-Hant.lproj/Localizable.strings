@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  TurnScreen
+
+  Created by ccc on 15/5/30.
+  Copyright (c) 2015年 www.cccapp.com. All rights reserved.
+*/
+"mjrefresh.header.pull_to_refresh"="下拉可以刷新";
+"mjrefresh.header.release_to_refresh"="鬆開立即刷新";
+"mjrefresh.header.refreshing"="正在幫你刷新...";
+
+"mjrefresh.footer.pull_to_refresh"="上拉可以加載更多數據";
+"mjrefresh.footer.release_to_refresh"="鬆開立即加載更多數據";
+"mjrefresh.footer.refreshing"="正在幫你加載更多內容...";
+"mjrefresh.header.last.update"="最後更新：";
+"mjrefresh.header.today"="今天";
+
+
+"btn.turn.portrait.name"="轉堅屏";
+"btn.turn.landscape.name"="轉橫屏";

@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3C6A331B195EDE00354EF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A321B195EDE00354EF6 /* main.m */; };
+		4A3C6A361B195EDE00354EF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A351B195EDE00354EF6 /* AppDelegate.m */; };
+		4A3C6A3E1B195EDE00354EF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6A3D1B195EDE00354EF6 /* Images.xcassets */; };
+		4A3C6A4D1B195EDE00354EF6 /* TurnScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A4C1B195EDE00354EF6 /* TurnScreenTests.m */; };
+		4A3C6A5B1B1960E200354EF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6A5D1B1960E200354EF6 /* InfoPlist.strings */; };
+		4A3C6A5E1B1960E800354EF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6A601B1960E800354EF6 /* Localizable.strings */; };
+		4A3C6A9E1B19616E00354EF6 /* CommonDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A741B19616E00354EF6 /* CommonDelegate.m */; };
+		4A3C6A9F1B19616E00354EF6 /* CommonMisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A761B19616E00354EF6 /* CommonMisc.m */; };
+		4A3C6AA01B19616E00354EF6 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6A791B19616E00354EF6 /* MJRefresh.bundle */; };
+		4A3C6AA11B19616E00354EF6 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A7C1B19616E00354EF6 /* MJRefreshBaseView.m */; };
+		4A3C6AA21B19616E00354EF6 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A7E1B19616E00354EF6 /* MJRefreshConst.m */; };
+		4A3C6AA31B19616E00354EF6 /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A801B19616E00354EF6 /* MJRefreshFooterView.m */; };
+		4A3C6AA41B19616E00354EF6 /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A821B19616E00354EF6 /* MJRefreshHeaderView.m */; };
+		4A3C6AA51B19616E00354EF6 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A871B19616E00354EF6 /* AppViewController.m */; };
+		4A3C6AA61B19616E00354EF6 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A8A1B19616E00354EF6 /* BaseView.m */; };
+		4A3C6AA71B19616E00354EF6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6A8C1B19616E00354EF6 /* BaseViewController.m */; };
+		4A3C6AAE1B19634900354EF6 /* PortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6AAD1B19634900354EF6 /* PortraitViewController.m */; };
+		4A3C6AB11B19635E00354EF6 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C6AB01B19635E00354EF6 /* LandscapeViewController.m */; };
+		4A3C6ABA1B199B9800354EF6 /* btn_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6AB81B199B9800354EF6 /* btn_background.png */; };
+		4A3C6ABB1B199B9800354EF6 /* btn_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6AB91B199B9800354EF6 /* btn_background@2x.png */; };
+		4A3C6ABE1B199CD000354EF6 /* btn_turn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6ABC1B199CD000354EF6 /* btn_turn.png */; };
+		4A3C6ABF1B199CD000354EF6 /* btn_turn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C6ABD1B199CD000354EF6 /* btn_turn@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3C6A471B195EDE00354EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3C6A251B195EDE00354EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3C6A2C1B195EDE00354EF6;
+			remoteInfo = TurnScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3C6A2D1B195EDE00354EF6 /* TurnScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3C6A311B195EDE00354EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3C6A321B195EDE00354EF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3C6A341B195EDE00354EF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A3C6A351B195EDE00354EF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A3C6A3D1B195EDE00354EF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A3C6A461B195EDE00354EF6 /* TurnScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3C6A4B1B195EDE00354EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3C6A4C1B195EDE00354EF6 /* TurnScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnScreenTests.m; sourceTree = "<group>"; };
+		4A3C6A561B195F3D00354EF6 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		4A3C6A5C1B1960E200354EF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A3C6A5F1B1960E800354EF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A3C6A611B1960F400354EF6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4A3C6A621B1960F400354EF6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4A3C6A631B1960F800354EF6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4A3C6A641B1960F800354EF6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4A3C6A711B19616E00354EF6 /* AppCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCommand.h; sourceTree = "<group>"; };
+		4A3C6A721B19616E00354EF6 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		4A3C6A731B19616E00354EF6 /* CommonDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDelegate.h; sourceTree = "<group>"; };
+		4A3C6A741B19616E00354EF6 /* CommonDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDelegate.m; sourceTree = "<group>"; };
+		4A3C6A751B19616E00354EF6 /* CommonMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMisc.h; sourceTree = "<group>"; };
+		4A3C6A761B19616E00354EF6 /* CommonMisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMisc.m; sourceTree = "<group>"; };
+		4A3C6A791B19616E00354EF6 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		4A3C6A7A1B19616E00354EF6 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		4A3C6A7B1B19616E00354EF6 /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		4A3C6A7C1B19616E00354EF6 /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		4A3C6A7D1B19616E00354EF6 /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		4A3C6A7E1B19616E00354EF6 /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		4A3C6A7F1B19616E00354EF6 /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		4A3C6A801B19616E00354EF6 /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		4A3C6A811B19616E00354EF6 /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		4A3C6A821B19616E00354EF6 /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		4A3C6A861B19616E00354EF6 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		4A3C6A871B19616E00354EF6 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		4A3C6A891B19616E00354EF6 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		4A3C6A8A1B19616E00354EF6 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		4A3C6A8B1B19616E00354EF6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4A3C6A8C1B19616E00354EF6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4A3C6AAC1B19634900354EF6 /* PortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitViewController.h; sourceTree = "<group>"; };
+		4A3C6AAD1B19634900354EF6 /* PortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitViewController.m; sourceTree = "<group>"; };
+		4A3C6AAF1B19635E00354EF6 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		4A3C6AB01B19635E00354EF6 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		4A3C6AB31B19641B00354EF6 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		4A3C6AB81B199B9800354EF6 /* btn_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_background.png; sourceTree = "<group>"; };
+		4A3C6AB91B199B9800354EF6 /* btn_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_background@2x.png"; sourceTree = "<group>"; };
+		4A3C6ABC1B199CD000354EF6 /* btn_turn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_turn.png; sourceTree = "<group>"; };
+		4A3C6ABD1B199CD000354EF6 /* btn_turn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_turn@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3C6A2A1B195EDE00354EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3C6A431B195EDE00354EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3C6A241B195EDE00354EF6 = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A2F1B195EDE00354EF6 /* TurnScreen */,
+				4A3C6A491B195EDE00354EF6 /* TurnScreenTests */,
+				4A3C6A2E1B195EDE00354EF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3C6A2E1B195EDE00354EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A2D1B195EDE00354EF6 /* TurnScreen.app */,
+				4A3C6A461B195EDE00354EF6 /* TurnScreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3C6A2F1B195EDE00354EF6 /* TurnScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A341B195EDE00354EF6 /* AppDelegate.h */,
+				4A3C6A351B195EDE00354EF6 /* AppDelegate.m */,
+				4A3C6AB21B19641B00354EF6 /* config */,
+				4A3C6A6F1B19616E00354EF6 /* src */,
+				4A3C6A651B19616E00354EF6 /* images */,
+				4A3C6A3D1B195EDE00354EF6 /* Images.xcassets */,
+				4A3C6A301B195EDE00354EF6 /* Supporting Files */,
+			);
+			path = TurnScreen;
+			sourceTree = "<group>";
+		};
+		4A3C6A301B195EDE00354EF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A311B195EDE00354EF6 /* Info.plist */,
+				4A3C6A321B195EDE00354EF6 /* main.m */,
+				4A3C6A561B195F3D00354EF6 /* Prefix.pch */,
+				4A3C6A5D1B1960E200354EF6 /* InfoPlist.strings */,
+				4A3C6A601B1960E800354EF6 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A3C6A491B195EDE00354EF6 /* TurnScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A4C1B195EDE00354EF6 /* TurnScreenTests.m */,
+				4A3C6A4A1B195EDE00354EF6 /* Supporting Files */,
+			);
+			path = TurnScreenTests;
+			sourceTree = "<group>";
+		};
+		4A3C6A4A1B195EDE00354EF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A4B1B195EDE00354EF6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A3C6A651B19616E00354EF6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6ABC1B199CD000354EF6 /* btn_turn.png */,
+				4A3C6ABD1B199CD000354EF6 /* btn_turn@2x.png */,
+				4A3C6AB81B199B9800354EF6 /* btn_background.png */,
+				4A3C6AB91B199B9800354EF6 /* btn_background@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4A3C6A6F1B19616E00354EF6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A701B19616E00354EF6 /* common */,
+				4A3C6A771B19616E00354EF6 /* lib */,
+				4A3C6A831B19616E00354EF6 /* module */,
+				4A3C6A841B19616E00354EF6 /* util */,
+				4A3C6A851B19616E00354EF6 /* view */,
+				4A3C6A941B19616E00354EF6 /* vo */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		4A3C6A701B19616E00354EF6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A721B19616E00354EF6 /* Common.h */,
+				4A3C6A711B19616E00354EF6 /* AppCommand.h */,
+				4A3C6A731B19616E00354EF6 /* CommonDelegate.h */,
+				4A3C6A741B19616E00354EF6 /* CommonDelegate.m */,
+				4A3C6A751B19616E00354EF6 /* CommonMisc.h */,
+				4A3C6A761B19616E00354EF6 /* CommonMisc.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		4A3C6A771B19616E00354EF6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A781B19616E00354EF6 /* MJRefresh */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4A3C6A781B19616E00354EF6 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A791B19616E00354EF6 /* MJRefresh.bundle */,
+				4A3C6A7A1B19616E00354EF6 /* MJRefresh.h */,
+				4A3C6A7B1B19616E00354EF6 /* MJRefreshBaseView.h */,
+				4A3C6A7C1B19616E00354EF6 /* MJRefreshBaseView.m */,
+				4A3C6A7D1B19616E00354EF6 /* MJRefreshConst.h */,
+				4A3C6A7E1B19616E00354EF6 /* MJRefreshConst.m */,
+				4A3C6A7F1B19616E00354EF6 /* MJRefreshFooterView.h */,
+				4A3C6A801B19616E00354EF6 /* MJRefreshFooterView.m */,
+				4A3C6A811B19616E00354EF6 /* MJRefreshHeaderView.h */,
+				4A3C6A821B19616E00354EF6 /* MJRefreshHeaderView.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		4A3C6A831B19616E00354EF6 /* module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		4A3C6A841B19616E00354EF6 /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		4A3C6A851B19616E00354EF6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A861B19616E00354EF6 /* AppViewController.h */,
+				4A3C6A871B19616E00354EF6 /* AppViewController.m */,
+				4A3C6A881B19616E00354EF6 /* base */,
+				4A3C6AAB1B1962C400354EF6 /* turnscreen */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4A3C6A881B19616E00354EF6 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6A891B19616E00354EF6 /* BaseView.h */,
+				4A3C6A8A1B19616E00354EF6 /* BaseView.m */,
+				4A3C6A8B1B19616E00354EF6 /* BaseViewController.h */,
+				4A3C6A8C1B19616E00354EF6 /* BaseViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		4A3C6A941B19616E00354EF6 /* vo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vo;
+			sourceTree = "<group>";
+		};
+		4A3C6AAB1B1962C400354EF6 /* turnscreen */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6AAC1B19634900354EF6 /* PortraitViewController.h */,
+				4A3C6AAD1B19634900354EF6 /* PortraitViewController.m */,
+				4A3C6AAF1B19635E00354EF6 /* LandscapeViewController.h */,
+				4A3C6AB01B19635E00354EF6 /* LandscapeViewController.m */,
+			);
+			name = turnscreen;
+			path = TurnScreen/src/view/turnscreen;
+			sourceTree = SOURCE_ROOT;
+		};
+		4A3C6AB21B19641B00354EF6 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				4A3C6AB31B19641B00354EF6 /* Config.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3C6A2C1B195EDE00354EF6 /* TurnScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3C6A501B195EDE00354EF6 /* Build configuration list for PBXNativeTarget "TurnScreen" */;
+			buildPhases = (
+				4A3C6A291B195EDE00354EF6 /* Sources */,
+				4A3C6A2A1B195EDE00354EF6 /* Frameworks */,
+				4A3C6A2B1B195EDE00354EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnScreen;
+			productName = TurnScreen;
+			productReference = 4A3C6A2D1B195EDE00354EF6 /* TurnScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3C6A451B195EDE00354EF6 /* TurnScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3C6A531B195EDE00354EF6 /* Build configuration list for PBXNativeTarget "TurnScreenTests" */;
+			buildPhases = (
+				4A3C6A421B195EDE00354EF6 /* Sources */,
+				4A3C6A431B195EDE00354EF6 /* Frameworks */,
+				4A3C6A441B195EDE00354EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3C6A481B195EDE00354EF6 /* PBXTargetDependency */,
+			);
+			name = TurnScreenTests;
+			productName = TurnScreenTests;
+			productReference = 4A3C6A461B195EDE00354EF6 /* TurnScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3C6A251B195EDE00354EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = www.cccapp.com;
+				TargetAttributes = {
+					4A3C6A2C1B195EDE00354EF6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4A3C6A451B195EDE00354EF6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4A3C6A2C1B195EDE00354EF6;
+					};
+				};
+			};
+			buildConfigurationList = 4A3C6A281B195EDE00354EF6 /* Build configuration list for PBXProject "TurnScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 4A3C6A241B195EDE00354EF6;
+			productRefGroup = 4A3C6A2E1B195EDE00354EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3C6A2C1B195EDE00354EF6 /* TurnScreen */,
+				4A3C6A451B195EDE00354EF6 /* TurnScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3C6A2B1B195EDE00354EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3C6ABF1B199CD000354EF6 /* btn_turn@2x.png in Resources */,
+				4A3C6ABE1B199CD000354EF6 /* btn_turn.png in Resources */,
+				4A3C6A3E1B195EDE00354EF6 /* Images.xcassets in Resources */,
+				4A3C6A5E1B1960E800354EF6 /* Localizable.strings in Resources */,
+				4A3C6ABA1B199B9800354EF6 /* btn_background.png in Resources */,
+				4A3C6AA01B19616E00354EF6 /* MJRefresh.bundle in Resources */,
+				4A3C6ABB1B199B9800354EF6 /* btn_background@2x.png in Resources */,
+				4A3C6A5B1B1960E200354EF6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3C6A441B195EDE00354EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3C6A291B195EDE00354EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3C6A9F1B19616E00354EF6 /* CommonMisc.m in Sources */,
+				4A3C6AA51B19616E00354EF6 /* AppViewController.m in Sources */,
+				4A3C6AA71B19616E00354EF6 /* BaseViewController.m in Sources */,
+				4A3C6A9E1B19616E00354EF6 /* CommonDelegate.m in Sources */,
+				4A3C6AA41B19616E00354EF6 /* MJRefreshHeaderView.m in Sources */,
+				4A3C6AA21B19616E00354EF6 /* MJRefreshConst.m in Sources */,
+				4A3C6A361B195EDE00354EF6 /* AppDelegate.m in Sources */,
+				4A3C6AAE1B19634900354EF6 /* PortraitViewController.m in Sources */,
+				4A3C6AA11B19616E00354EF6 /* MJRefreshBaseView.m in Sources */,
+				4A3C6AA61B19616E00354EF6 /* BaseView.m in Sources */,
+				4A3C6AB11B19635E00354EF6 /* LandscapeViewController.m in Sources */,
+				4A3C6A331B195EDE00354EF6 /* main.m in Sources */,
+				4A3C6AA31B19616E00354EF6 /* MJRefreshFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3C6A421B195EDE00354EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3C6A4D1B195EDE00354EF6 /* TurnScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3C6A481B195EDE00354EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3C6A2C1B195EDE00354EF6 /* TurnScreen */;
+			targetProxy = 4A3C6A471B195EDE00354EF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A3C6A5D1B1960E200354EF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3C6A5C1B1960E200354EF6 /* en */,
+				4A3C6A611B1960F400354EF6 /* zh-Hans */,
+				4A3C6A631B1960F800354EF6 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A3C6A601B1960E800354EF6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3C6A5F1B1960E800354EF6 /* en */,
+				4A3C6A621B1960F400354EF6 /* zh-Hans */,
+				4A3C6A641B1960F800354EF6 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3C6A4E1B195EDE00354EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3C6A4F1B195EDE00354EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3C6A511B195EDE00354EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Prefix.pch";
+				INFOPLIST_FILE = TurnScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3C6A521B195EDE00354EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Prefix.pch";
+				INFOPLIST_FILE = TurnScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A3C6A541B195EDE00354EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnScreen.app/TurnScreen";
+			};
+			name = Debug;
+		};
+		4A3C6A551B195EDE00354EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurnScreen.app/TurnScreen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3C6A281B195EDE00354EF6 /* Build configuration list for PBXProject "TurnScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3C6A4E1B195EDE00354EF6 /* Debug */,
+				4A3C6A4F1B195EDE00354EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3C6A501B195EDE00354EF6 /* Build configuration list for PBXNativeTarget "TurnScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3C6A511B195EDE00354EF6 /* Debug */,
+				4A3C6A521B195EDE00354EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3C6A531B195EDE00354EF6 /* Build configuration list for PBXNativeTarget "TurnScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3C6A541B195EDE00354EF6 /* Debug */,
+				4A3C6A551B195EDE00354EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3C6A251B195EDE00354EF6 /* Project object */;
+}

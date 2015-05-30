@@ -1,0 +1,28 @@
+//
+//  Prefix.pch
+//  TurnScreen
+//
+//  Created by ccc on 15/5/30.
+//  Copyright (c) 2015年 www.cccapp.com. All rights reserved.
+//
+#ifndef TurnScreen_Prefix_pch
+#define TurnScreen_Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Common.h"
+#import "Config.h"
+
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
