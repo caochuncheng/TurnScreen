@@ -20,8 +20,8 @@ $ git clone git@github.com:caochuncheng/TurnScreen.git
 #define kAppHomeViewController @"LandscapeViewController" //横屏
 ```
 ``` bash
-// @"PortraitViewController" or @"PortraitViewController" //坚屏
-#def
+#define kAppHomeViewController @"PortraitViewController" //坚屏
+```
 
 3.编译到开发机可以测试效果
 
